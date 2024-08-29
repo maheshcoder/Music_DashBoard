@@ -1,0 +1,76 @@
+/* Dashboard.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #333333;
+
+}
+
+.dashboard-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+        /* background-color: #f0f0f0; */
+    /* border: 1px solid #ccc; */
+    border-radius: 8px;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+}
+
+.dashboard-header {
+    font-size: 24px;
+    color: #ddd8d8;
+    margin-bottom: 20px;
+}
+
+/* Add more styles as needed */
+.music-player-container {
+    background-color: #282c34; /* Adjust the background color as needed */
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .player-section {
+    text-align: center;
+  }
+  
+  .dashboard-header {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for the audio controls */
+  audio {
+    width: 180%; /* Adjust the width as needed */
+    margin: 20px;
+  margin-left:-80px; /* Adjust the left margin as needed */
+
+    
+  }
+  
+  /* Styling for the playlist */
+  .playlist {
+    list-style: none;
+    padding: 0;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .playlist li {
+    margin: 5px;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .playlist li:hover {
+    color: #61dafb; /* Change the color on hover */
+  }
+  
+  .playlist li.active {
+    font-weight: bold;
+    color: #61dafb; /* Change the color for the active song */
+  }
+  

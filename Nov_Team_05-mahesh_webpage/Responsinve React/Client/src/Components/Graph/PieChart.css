@@ -1,0 +1,32 @@
+/* PieChart.css */
+
+.PieCharts {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.PieChartComponent {
+  margin-bottom: 20px;
+  background-color: #333;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.PieChartTitle {
+  font-size: 1.5rem;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .PieCharts {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .PieChartComponent {
+    width: 100%;
+  }
+}

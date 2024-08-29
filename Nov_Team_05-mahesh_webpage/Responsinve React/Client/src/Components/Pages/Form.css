@@ -1,0 +1,41 @@
+/* Form.css */
+.form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0 auto; /* Center horizontally */
+}
+
+.form-title {
+  font-size: 24px;
+  color: #d0c4c4;
+  margin-bottom: 580px;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block; /* Ensure labels are on new lines */
+}
+
+.checkbox-label,
+.radio-label {
+  margin-right: 15px;
+  display: inline-block; /* Align checkboxes and radio buttons horizontally */
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #0088FE;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease; /* Smooth hover transition */
+}
+
+button:hover {
+  background-color: #0056b3;
+}
